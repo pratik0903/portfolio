@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+    color:aliceblue;
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    font-size:1.12em;
+}
+
+.container{
+    margin-top: 3vw;
+    align-items: center;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a,a:visited{
+    color:aliceblue;
+}
+
+.contentSection{
+    text-indent: 10%;
+    margin:auto;
+    max-width:500px;
+    padding:10px;
+    font-family: 'Open Sans','Helvetica', sans-serif;
+}
+
+.profilePic{
+    max-width:300px;
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+footer{
+    margin-top: 3vw;
+    height:auto;
+    min-height:40px;
+    text-align: center;
+}
+
+.banner{
+    position:relative;
+    text-align: center;
+    align-items: center;
+    max-width: 300px;
+    margin:40px;
+    float:left;
+    overflow: hidden;
+    width:33%;
+}
+
+.banner > p{
+    z-index:-1;
+    position: absolute;
+    top:240px;
+    text-align:center;
+}
+
+.container:before,
+.container:after {
+    content: " "; 
+    display: table; 
+}
+
+.container:after {
+    clear: both;
+}
+
+.container {
+    *zoom: 1;
+}
+
+.banner>a > img{
+    width:100%;
+    height:auto;   
+    transform:translateY(0px);
+    filter: sepia(0);
+    transition-property: filter,transform;
+    transition-duration:1.5s,1.5s;
+
+}
+
+.banner>a>img:hover{
+    filter:sepia(0.8);
+    transform: translateY(-60px);
+}
+
+.heading{
+    text-align: center;
+    margin-top:1.5vw;
+    font-size:2em;
+    letter-spacing: 2px;
+}
+
+.partition{
+    width:80%;
+    min-width:250px;
+    margin:0 auto;
+}
+
+.toolsAndtechs > img, .toolsAndtechs>a>img{
+    max-width: 50px;
+    margin:5 auto;
+    padding:5px;
+    display:inline-block;
+}
+
+.toolsAndtechs{
+    margin: 1vw auto;
+    width:60%;
+    text-align:center;
+}
+
+.partition:before,
+.partition:after {
+    content: " "; 
+    display: table; 
+}
+
+.partition:after {
+    clear: both;
+}
+
+.partition {
+    *zoom: 1;
+}
+
+.socialMedia{
+    margin-top:1vw;
+}
