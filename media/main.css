@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -140,4 +141,16 @@ footer{
 
 .socialMedia{
     margin-top:1vw;
+}
+
+.partition > .heading{
+    color:#dddddd;
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+span{
+    color:red;
+    font-size:20px;
 }
