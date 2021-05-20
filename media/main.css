@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 *{
     margin: 0;
@@ -9,9 +9,9 @@
 
 body{
     color:aliceblue;
-    background: #0f0c29;  
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
     font-size:1.12em;
 }
 
@@ -61,6 +61,34 @@ footer{
     float:left;
     overflow: hidden;
     width:33%;
+    transform:none;
+    transition:transform 300ms ease-in;
+}
+
+#certificate1::after{
+  content: "Coding Ninjas Competitive Programming";
+}
+
+#certificate2::after{
+  content: "Programming for Everybody (Getting Started with Python)";
+}
+
+#certificate3::after{
+  content: "Python Data Structures";
+}
+
+.banner::after{
+  width:100%;
+  position: absolute;
+  top:100%;
+  left:0px;
+  background-color: rgba(0, 199, 147, 0.6);
+  transition: all 0.3s ease-in;
+}
+
+.banner:hover::after{
+    top:0%;
+    z-index: 1;
 }
 
 .banner > p{
@@ -72,8 +100,8 @@ footer{
 
 .container:before,
 .container:after {
-    content: " "; 
-    display: table; 
+    content: " ";
+    display: table;
 }
 
 .container:after {
@@ -86,17 +114,12 @@ footer{
 
 .banner>a > img{
     width:100%;
-    height:auto;   
+    height:auto;
     transform:translateY(0px);
     filter: sepia(0);
     transition-property: filter,transform;
     transition-duration:1.5s,1.5s;
 
-}
-
-.banner>a>img:hover{
-    filter:sepia(0.8);
-    transform: translateY(-60px);
 }
 
 .heading{
@@ -127,8 +150,8 @@ footer{
 
 .partition:before,
 .partition:after {
-    content: " "; 
-    display: table; 
+    content: " ";
+    display: table;
 }
 
 .partition:after {
@@ -146,6 +169,7 @@ footer{
 .partition > .heading{
     color:#dddddd;
     font-size: 1.3em;
+    font-weight: 400;
     font-family: 'Raleway', sans-serif;
 
 }
