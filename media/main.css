@@ -166,15 +166,25 @@ footer{
     margin-top:1vw;
 }
 
-.partition > .heading{
+.partition > .heading , .contentSection .heading{
     color:#dddddd;
     font-size: 1.3em;
     font-weight: 400;
+    margin-top: 1vw;
     font-family: 'Raleway', sans-serif;
 
 }
 
-span{
+footer span{
     color:red;
     font-size:20px;
+}
+
+li{
+  text-indent: -4px;
+}
+
+li>span{
+      position: relative;
+      left:0px;
 }
