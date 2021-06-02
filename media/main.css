@@ -18,9 +18,7 @@ body{
 .container{
     margin-top: 3vw;
     align-items: center;
-    width:80%;
-    margin-left:auto;
-    margin-right:auto;
+    width:90%;
 }
 
 a,a:visited{
@@ -55,12 +53,9 @@ footer{
 .banner{
     position:relative;
     text-align: center;
-    align-items: center;
-    max-width: 300px;
-    margin:40px;
-    float:left;
+    margin:10px 15px;
     overflow: hidden;
-    width:33%;
+    width:200px;
     transform:none;
     transition:transform 300ms ease-in;
 }
@@ -187,4 +182,12 @@ li{
 li>span{
       position: relative;
       left:0px;
+}
+
+
+.mainFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
