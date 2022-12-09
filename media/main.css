@@ -112,6 +112,12 @@ footer{
     *zoom: 1;
 }
 
+.mainFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .banner>a > img{
     width:100%;
     height:auto;
