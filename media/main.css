@@ -65,6 +65,12 @@ footer{
     transition:transform 300ms ease-in;
 }
 
+.mainFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #certificate1::after{
   content: "Coding Ninjas Competitive Programming";
 }
